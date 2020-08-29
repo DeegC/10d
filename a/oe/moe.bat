@@ -16,11 +16,3 @@ call moe %1 %2 %3 %4 %5
 call mdbh %1 %2 %3 %4 %5
 call cds a
 if not '%buildos%' == 'win32' call mob
-qff *.err /q /12
-qff *.err /q /14
-cd ..\..\w\oe
-qff *.err /q /12
-qff *.err /q /14
-cd ..\..\a\oe
-dir *.err /os
-dir ..\..\w\oe\*.err
